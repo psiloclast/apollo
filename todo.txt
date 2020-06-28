@@ -1,0 +1,30 @@
+recorders end
+    - record microphone input * /
+    - trim audio clip
+    - loop over and over * /
+    - delete *
+    - multiple loops (max? == 1?)
+    - instruments (MIDI)
+    - upload pre-recorded file
+    - bpm
+    - intro 4 beats before recording starts *
+
+- listeners end
+    - clips played over one another *
+    - pause and play * - had it before
+        - pause at particular point and replay from point
+    - volume (global and individual tracks) *
+    - mute/solo individual tracks *
+
+- ux/ui
+    - rows of tracks (DAW-esque) * /
+    - playhead * 
+
+- rooms /
+    - users connect to a room (start off with one now)
+    - connected via websockets *
+    - users publish loops *
+        - sent to room *
+        - sent to all other users *
+    - server owned or peer to peer?
+    - usernames / auth?
